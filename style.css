@@ -993,7 +993,13 @@ a.btn:hover {
   }
 
   .special__content {
-    padding-left: 0;
+    padding-left: 30px;
+  }
+
+  .special__photo {
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
   }
 
   /* customers */
@@ -1076,9 +1082,13 @@ a.btn:hover {
   }
 
   .special__vegetable {
-    /* padding-left: 20px; */
     width: 450px;
     height: 450px;
+  }
+
+  .special__photo {
+    width: 200px;
+    height: 200px;
   }
 
   .special__text {
@@ -1106,6 +1116,7 @@ a.btn:hover {
 
   .home__text {
     font-size: 16px;
+    width: 500px;
   }
 
   .text__btn {
@@ -1132,6 +1143,10 @@ a.btn:hover {
     font-size: 16px;
   }
 
+  .special__photo {
+    display: none;
+  }
+
   .special__vegetable {
     width: 300px;
     height: 300px;
@@ -1145,6 +1160,10 @@ a.btn:hover {
 
   .customers__text {
     font-size: 16px;
+  }
+
+  .texqt__btn {
+    padding-top: 30px;
   }
 
   /* Download */
@@ -1205,9 +1224,27 @@ a.btn:hover {
     flex-direction: column;
   }
 
+  .special__heading {
+    padding-top: 60px;
+  }
+
   .special__content {
     width: auto;
     padding-left: 30px;
+  }
+
+  .special__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .special__vegetable {
+    padding-left: 30px;
+  }
+
+  .arrow__two {
+    width: 40px;
+    height: 40px;
   }
 
   /* customers */
