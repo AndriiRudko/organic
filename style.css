@@ -493,17 +493,13 @@ body {
   padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
-
 
 .header__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.header__nav {}
 
 .header__nav a {
   text-decoration: none;
@@ -860,8 +856,6 @@ a.btn:hover {
   padding-top: 40px;
 }
 
-.customers__icon {}
-
 .customers__star {
   padding-top: 20px;
   margin-right: 175px;
@@ -870,10 +864,6 @@ a.btn:hover {
 .customers__stars {
   margin-right: 27px;
 }
-
-
-
-
 
 .customers__img {
   position: relative;
@@ -897,7 +887,6 @@ a.btn:hover {
   padding-top: 150px;
 
 }
-
 
 .download__inner {
   width: 660px;
@@ -1066,26 +1055,16 @@ a.btn:hover {
     margin-left: 30px;
   }
 
-  /* home */
-
-
-
   /* Info  */
 
   .info__heading {
     font-size: 50px;
   }
 
-
-  .info__photobig {
-    /* right: 150px; */
-  }
-
   /* special */
 
   .special__heading {
     font-size: 50px;
-
   }
 
   .special__content {
