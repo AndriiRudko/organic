@@ -881,6 +881,9 @@ a.btn:hover {
   color: #333333;
   font-weight: 400;
   background-color: #F3FBF8;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
 }
 
 /* Footer */
@@ -1166,6 +1169,11 @@ a.btn:hover {
     padding-top: 30px;
   }
 
+  .customers__text {
+    font-size: 14px;
+    width: 350px;
+  }
+
   /* Download */
 
   .download__heading {
@@ -1194,6 +1202,9 @@ a.btn:hover {
 
   /* home */
 
+  .container {
+  }
+
   .home__text {
     width: auto;
   }
@@ -1206,11 +1217,16 @@ a.btn:hover {
 
   .info__why {
     padding-left: 0px;
+    width: 350px;
   }
 
   .info__photobig {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
+  }
+
+  .info__photo {
+    text-align: start;
   }
 
   .name__text {
@@ -1258,10 +1274,18 @@ a.btn:hover {
     padding-left: 30px;
   }
 
+  .customers__inner {
+    width: 350px;
+  }
+
   /* download */
 
   .download__photo {
     margin-left: 50px;
+  }
+
+  .download__img {
+    padding-right: 0;
   }
 
   /* footer */
@@ -1292,4 +1316,4 @@ a.btn:hover {
   .footer__img__nav {
     padding-top: 25px;
   }
-}
+  }
